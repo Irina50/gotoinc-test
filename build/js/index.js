@@ -11,12 +11,11 @@ $('.burger').on("click", function() {
 $('.menu__list').on("click", function() {
     $('.menu').removeClass('_active');
       $('body').removeClass('body-fixed');
+        $('.burger').removeClass('_active');
+
 
 })
-// $('.box__item').on("click", function() {
-//   $(this).toggleClass('_active');
 
-// });
 
 //  slick-sliders
 
