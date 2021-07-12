@@ -1,0 +1,46 @@
+.form {
+  &__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 28px;
+  }
+  &__input {
+    background: #f8f8f8;
+    border-radius: 5px;
+    border: none;
+    margin: 6px 0 16px 0;
+    height: 50px;
+    width: 100%;
+    display: block;
+    padding: 10px;
+  }
+}
+.form__item {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #828282;
+}
+
+.form__item--date {
+  position: relative;
+}
+.form__item--date::after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  background-image: url("../img/icons/calendar-green.svg");
+}
+.form__input:focus {
+  outline-color: @main-color;
+}
+.form__input--date {
+  padding-right: 45px;
+}

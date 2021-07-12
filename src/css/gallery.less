@@ -1,0 +1,43 @@
+.gallery__colection {
+  display: flex;
+  flex-wrap: wrap;
+}
+.gallery__link {
+  width: 25%;
+  display: block;
+  position: relative;
+
+  &:hover::before {
+    opacity: 1;
+  }
+  &:hover::after {
+    opacity: 1;
+  }
+}
+.gallery__link::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(52, 60, 74, 0.6);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.gallery__link::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: url("../img/icons/zoom.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+.gallery__img {
+  width: 100%;
+}

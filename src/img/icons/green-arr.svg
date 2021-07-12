@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="700"
+   height="600"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.43"
+   version="1.0"
+   sodipodi:docbase="C:\Documents and Settings\Susan and Tristan\My Documents"
+   sodipodi:docname="Green Arrow Up.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.62166666"
+     inkscape:cx="350"
+     inkscape:cy="300"
+     inkscape:document-units="px"
+     inkscape:current-layer="g1452"
+     inkscape:window-width="756"
+     inkscape:window-height="540"
+     inkscape:window-x="22"
+     inkscape:window-y="29" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g1452"
+       transform="translate(19.99999,28.57142)">
+      <path
+         style="fill:#00ff00;fill-opacity:1;stroke:none"
+         d="M -19.99999,570.81764 C -19.99999,569.2247 329.99229,-29.17253 330.57213,-28.57097 C 332.51762,-26.55259 680.63965,570.96692 679.99913,571.18841 C 679.58076,571.33308 600.70188,542.31048 504.71273,506.69375 L 330.18699,441.93605 L 155.94489,506.68232 C 60.11172,542.29276 -18.680347,571.42858 -19.148608,571.42858 C -19.616868,571.42858 -19.99999,571.15365 -19.99999,570.81764 z "
+         id="path1454" />
+    </g>
+  </g>
+</svg>

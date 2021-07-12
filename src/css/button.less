@@ -1,0 +1,81 @@
+.btn {
+  outline: 0;
+  padding: 0;
+  box-shadow: none;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-color: transparent;
+  font: bold 16px/26px "Josefin Sans";
+  border: 2px solid transparent;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease, color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.btn--fixed {
+  width: 280px;
+}
+
+.btn--medium {
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.btn--primary {
+  background-color: @main-color;
+  border-color: @main-color;
+  color: #fff;
+}
+
+.btn--primary:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: @main-color;
+}
+
+.btn--primary-outline {
+  background-color: #fff;
+  border-color: @main-color;
+  color: @main-color;
+}
+
+.btn--primary-outline:hover {
+  background-color: @main-color;
+  border-color: @main-color;
+  color: #fff;
+}
+.btn--up {
+  position: fixed;
+  bottom: 0;
+  right: 50px;
+  cursor: pointer;
+  padding: 30px;
+  display: none;
+}
+.btn--up img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+.btn--up:hover {
+  bottom: 10px;
+}
+
+.btn:disabled,
+.btn._disabled {
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+.btn:focus {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
